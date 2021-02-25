@@ -1,0 +1,121 @@
+.nav{
+height: 50px;
+background: green;			
+}
+
+.nav div{
+display: inline-block;
+position: absolute;
+left: 0;
+padding: 15px;
+font-size: 20px;
+color: white;
+}
+
+.nav ul{
+position:absolute;
+right:5px;			
+}
+
+.nav ul li{
+display:inline-block;
+}
+
+.nav ul li a{
+color: white;
+padding:5px;			
+}
+
+.home{
+background-color: gray;
+background-size: cover;
+height: 100vh;
+}
+
+.home .text-container{
+			text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 90vh;			
+				
+}
+.about{
+				background-color: gray;
+				background-size: cover;
+				height: 100vh;
+}
+
+
+.about .about-content{
+				margin: 150px auto 0 auto;
+				width: 500px;		
+				font-family: 'Roboto', sans-serif;
+}
+
+.about .about-content h1{
+				text-align: center;			
+}
+
+.about .about-content p{
+				text-align: justify;
+				color: black;
+}
+
+.services{
+				background-color: gray;
+				background-size: cover;
+				height: 100vh;
+				
+				
+}
+.services .services-content{
+				margin: 80px auto 0 auto;
+				text-align: center;
+				
+}
+
+.services .services-content h1{
+				font-family: "Roboto" sans-serif;
+				color: black;
+				
+}
+
+.services-content .card-container ul{
+				padding: 0;
+}
+
+.services-content .card-container ul li{
+				list-style: none;
+				display: inline-block;
+				margin: 20px;
+				width: 300px;
+				
+}
+
+.card-container ul li p{
+				text-align: justify;
+				font-family: "Lato" sans-serif;
+				color: black;
+}
+
+.card-container h2{
+				color: yellow;
+}
+
+.contact{
+			background-color: gray;
+			background-size: cover;
+				height: 100vh;
+				
+}
+.contact .contact-content{
+				margin: 80px auto 0 auto;
+				text-align: center;
+				color: black;
+				background-color: gray;
+				background-size: cover;
+				height: 100vh;
+}
+
+
